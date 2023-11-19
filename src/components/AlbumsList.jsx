@@ -9,7 +9,8 @@ export const AlbumsList = () => {
   const dispatch = useDispatch();
   const navigate = useNavigate();
   const albums = useSelector((state) => state.albums);
-
+  const favorites = useSelector((state) => state.favorites);
+  // console.log("", favorites);
   useEffect(() => {
     const loadData = async () => {
       const data = await getAlbums();
@@ -23,6 +24,12 @@ export const AlbumsList = () => {
 
   return (
     <div className="albums-grid">
+      {favorites.length > 0 && (
+        <div>
+          <h3>Favorites</h3>
+          <button onClick={() => navigate("favorites")}>View Favorites</button>
+        </div>
+      )}
       {uniqueAlbumIds.map((id) => (
         <div key={id} className="album-container">
           <h3>Album {id}</h3>
