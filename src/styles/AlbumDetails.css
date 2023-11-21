@@ -1,24 +1,34 @@
 .details-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    gap: 20px;
-    padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  position: "relative";
+}
+
+.photo-container {
+  border: 1px solid #e0e0e0;
+  color: antiquewhite;
+  padding: 10px;
+  border-radius: 8px;
+  transition: transform 0.2s ease-in-out;
+  text-align: center;
+  backdrop-filter: blur(10px);
+  cursor: pointer;
+  color: white;
+
+  &:hover {
+    transform: scale(1.05);
   }
-  
-  .photo-container {
-    border: 1px solid #e0e0e0;
-    padding: 10px;
+
+  img {
+    max-width: 30%;
+    height: auto;
     border-radius: 8px;
-    transition: transform 0.2s ease-in-out;
-    text-align: center;
-  
-    &:hover {
-      transform: scale(1.05);
-    }
-  
-    img {
-      max-width: 100%;
-      height: auto;
-      border-radius: 8px;
-    }
   }
+}
+
+.button {
+  border-radius: 10px;
+  background-color: red;
+}

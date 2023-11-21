@@ -1,0 +1,17 @@
+export const dummyImageData = [
+  "https://static-cse.canva.com/blob/1144483/removingbackgroundimages_Unsplash.jpeg",
+  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAtDhOZ8WS86oqQntzORskZcEwORlILZwV7Q&usqp=CAU",
+  "https://t3.ftcdn.net/jpg/06/07/84/08/360_F_607840809_i12EKfUHkz0H9zuOXbU9TTxCBcrhHk6U.jpg",
+  "https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?cs=srgb&dl=pexels-miguel-%C3%A1-padri%C3%B1%C3%A1n-255379.jpg&fm=jpg",
+  "https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg?size=626&ext=jpg&ga=GA1.1.1826414947.1700438400&semt=sph",
+  "https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832_640.jpg",
+  "https://img.freepik.com/premium-photo/leaf-background-bokeh-blur-green-background_34998-346.jpg",
+  "https://thumbs.dreamstime.com/b/fall-background-autumn-colorful-leaves-fall-background-autumn-colorful-leaves-sun-flares-99090759.jpg",
+  "https://cdn.stocksnap.io/img-thumbs/960w/abstract-waves_XYBLVEGDJM.jpg",
+  "https://upload.wikimedia.org/wikipedia/commons/d/d0/Background-clouds.jpg",
+  "https://cdn.stocksnap.io/img-thumbs/960w/abstract-glow_1QYGEGKUP2.jpg",
+  "https://cdn.pixabay.com/photo/2016/06/02/02/33/triangles-1430105_1280.png",
+  "https://png.pngtree.com/thumb_back/fh260/background/20211031/pngtree-abstract-bg-image_914283.png",
+  "https://img.freepik.com/free-vector/elegant-alcohol-ink-hand-painted-background-with-gold-glitter-elements_1048-15378.jpg?size=626&ext=jpg&ga=GA1.1.1880011253.1698883200&semt=ais",
+  "https://www.pixelstalk.net/wp-content/uploads/2016/06/Free-Wallpaper-Background-HD-Download.jpg",
+];

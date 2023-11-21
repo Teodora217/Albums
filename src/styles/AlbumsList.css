@@ -7,12 +7,24 @@
 
 .album-container {
   border: 1px solid #e0e0e0;
+  font-size: 25px;
+  color: blueviolet;
   padding: 10px;
   border-radius: 8px;
+  height: 25vh;
   transition: transform 0.2s ease-in-out;
   text-align: center;
+  background-size: cover;
+  backdrop-filter: blur(50px);
 
   &:hover {
     transform: scale(1.05);
   }
+}
+.button-details {
+  padding: 10px;
+  margin: 10px;
+  color: blueviolet;
+  border-radius: 8px;
+  border-color: antiquewhite;
 }
