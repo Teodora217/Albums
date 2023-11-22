@@ -1,6 +1,21 @@
 .albums-container {
   text-align: center;
   color: antiquewhite;
-  font-size: 150px;
-  padding: 120px;
+  font-size: 100px;
+  padding: 100px;
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  cursor: pointer;
+  min-height: 60px;
+  min-width: 200px;
+  border-radius: 30px;
+  font-size: 20px;
+  color: antiquewhite;
+  background-color: #2196f3;
+  border-color: #2196f3;
 }

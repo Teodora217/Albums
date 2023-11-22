@@ -16,8 +16,11 @@ export const Favorites = () => {
     <div className="details-grid">
       {favorites.map((photo) => (
         <div key={photo.id} className="photo-container">
-          <div style={{ position: "absolute", right: 10 }}>
-            <FaHeart onClick={() => handleRemoveFromFavorites(photo.id)} />
+          <div>
+            <FaHeart
+              className="heart-icon"
+              onClick={() => handleRemoveFromFavorites(photo.id)}
+            />
           </div>
           <img src={photo.thumbnailUrl} alt={photo.title} />
           <p>{photo.title}</p>
