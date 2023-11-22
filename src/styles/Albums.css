@@ -1,14 +1,6 @@
-/* .albums-container {
-  background-image: url("../../public/images/camera.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 100vh;
-  width: 100%;
-} */
 .albums-container {
   text-align: center;
   color: antiquewhite;
-  font-size: 200px;
+  font-size: 150px;
   padding: 120px;
 }

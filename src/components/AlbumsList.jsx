@@ -39,14 +39,7 @@ export const AlbumsList = () => {
             }}
             className="album-container"
           >
-            <div
-              style={{
-                display: "flex",
-                justifyContent: "space-between",
-                flexDirection: "column",
-                height: "100%",
-              }}
-            >
+            <div className="title">
               <h3>Album {id}</h3>
               <button
                 className="button-details"

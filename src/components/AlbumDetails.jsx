@@ -11,8 +11,6 @@ export const AlbumDetails = () => {
   const albums = useSelector((state) => state.albums);
   const favorites = useSelector((state) => state.favorites);
 
-  console.log("favorites", favorites);
-
   const currentAlbum = albums.filter(
     (album) => album.albumId === parseInt(albumId)
   );
@@ -28,24 +26,14 @@ export const AlbumDetails = () => {
   return (
     <div className="details-grid">
       {currentAlbum.map((photo) => (
-        <div
-          style={{ position: "relative" }}
-          key={photo.id}
-          className="photo-container"
-        >
+        <div key={photo.id} className="photo-container">
           {favorites.some((favorite) => favorite.id === photo.id) ? (
-            <div style={{ position: "absolute", right: 10 }}>
-              <FaHeart
-                onClick={() => handleRemoveFromFavorites(photo.id)}
-                style={{ cursor: "pointer", color: "white" }}
-              />
+            <div className="heart-icon">
+              <FaHeart onClick={() => handleRemoveFromFavorites(photo.id)} />
             </div>
           ) : (
-            <div style={{ position: "absolute", right: 10 }}>
-              <FaRegHeart
-                onClick={() => handleAddToFavorites(photo)}
-                // style={{ cursor: "pointer", color: "white" }}
-              />
+            <div className="heart-icon">
+              <FaRegHeart onClick={() => handleAddToFavorites(photo)} />
             </div>
           )}
 

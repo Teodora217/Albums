@@ -3,7 +3,7 @@
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   gap: 20px;
   padding: 20px;
-  position: "relative";
+  position: relative;
 }
 
 .photo-container {
@@ -14,8 +14,6 @@
   transition: transform 0.2s ease-in-out;
   text-align: center;
   backdrop-filter: blur(10px);
-  cursor: pointer;
-  color: white;
 
   &:hover {
     transform: scale(1.05);
@@ -31,4 +29,11 @@
 .button {
   border-radius: 10px;
   background-color: red;
+}
+
+.heart-icon {
+  position: absolute;
+  right: 10px;
+  cursor: "pointer";
+  color: "white";
 }
