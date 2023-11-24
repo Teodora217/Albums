@@ -3,9 +3,3 @@ export const getAlbums = async () => {
   const data = await response.json();
   return data;
 };
-
-export const getAlbumCovers = async () => {
-  const response = await fetch("https://source.unsplash.com/random");
-  // const data = await response.json();
-  return response;
-};
