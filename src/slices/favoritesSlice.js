@@ -12,7 +12,7 @@ const favoritesSlice = createSlice({
     },
   },
 });
-console.log(favoritesSlice);
+
 export const { setFavorites, removeFavorites } = favoritesSlice.actions;
 
 export default favoritesSlice.reducer;
